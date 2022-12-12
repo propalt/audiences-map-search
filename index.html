@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Demo</title>
+<script src="https://dragonfly.propalt.co.uk/dist/index.js"></script>
+<link rel="stylesheet" type="text/css" href="https://dragonfly.propalt.co.uk/dist/index.css">
+<link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'></link>
+<script src="https://kit.fontawesome.com/ff8077703a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div id="root"></div>
+
+<script>
+
+function render() {
+    DGF.ReactContentRenderer.render(
+    {
+      apiKey: // Put your propalt api key here.
+    },
+    document.getElementById('root')
+  );
+}
+
+if (window.DGF) {
+    render()
+} else {
+  alert("The demo does not work because the \"DGF\" global object is not present.\n"
+       + "Did you follow the README and run \"yarn && yarn demo\"?");
+}
+
+</script>
+
+</body>
+</html>
