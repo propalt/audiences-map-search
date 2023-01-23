@@ -354,6 +354,7 @@ template {
   overflow: auto;
 }
 .dgf-tools .left-section .audience-form {
+  font-family: "Montserrat";
   padding: 20px;
 }
 .dgf-tools .left-section .audience-form .form-component {
@@ -386,10 +387,10 @@ template {
   justify-content: space-between;
   font-size: 1rem;
   border-bottom: 1px solid #707070;
-  font-weight: normal;
+  font-weight: bold;
   padding: 8px 0;
   cursor: pointer;
-  color: #074F58;
+  color: #00ACC8;
 }
 .dgf-tools .left-section .audience-form .form-component h3 {
   font-size: 1rem;
@@ -581,6 +582,130 @@ template {
   100% {
     transform: rotate(-360deg);
   }
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+  max-width: 300px;
+  background: #fff;
+  border: 1px solid #a0a0a0;
+  border-radius: 4px;
+  padding-left: 0.5rem;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+.input-box .prefix {
+  font-weight: 300;
+  font-size: 14px;
+  color: #999;
+}
+
+.input-box input {
+  flex-grow: 1;
+  font-size: 14px;
+  background: #fff;
+  border: none;
+  outline: none;
+  padding: 0.5rem;
+}
+
+.input-box:focus-within {
+  border-color: #777;
+}
+
+.horizontal-slider {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: flex;
+}
+
+.example-track {
+  top: 0;
+  bottom: 0;
+  height: 10px;
+}
+
+.example-track-1 {
+  background-color: #00ACC8;
+}
+
+.example-track-0, .example-track-2 {
+  background-color: #F3F3F3;
+}
+
+.example-thumb {
+  margin-top: -7px;
+  background-color: #00ACC8;
+  border: 3px #ffffff solid;
+  border-radius: 50%;
+  min-height: 20px;
+  min-width: 20px;
+}
+
+.form-switch {
+  background-color: #00ACC8;
+}
+.form-switch .react-switch-handle {
+  background-color: #00ACC8;
+}
+
+.ownership {
+  list-style-type: none;
+  padding: 0;
+  font-size: 1rem;
+}
+.ownership li {
+  margin-bottom: 20px;
+}
+.ownership .form-switch {
+  float: right;
+}
+
+.filter-container {
+  display: flex;
+  gap: 10px;
+}
+
+.form-btn {
+  background-color: #ffffff;
+  color: #00ACC8;
+  border: 1px solid #00ACC8;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  width: 100%;
+  margin: 10px 0 10px 10px;
+}
+.form-btn.active {
+  background-color: #00ACC8;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+.form-btn button:first-child {
+  margin-left: 0;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  text-align: right;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.flex-content {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown {
+  width: 50%;
+  margin-left: 10px;
+}
+.dropdown div:first-child {
+  margin-left: 0;
 }
 
 /*# sourceMappingURL=index.css.map */
