@@ -354,7 +354,6 @@ template {
   overflow: auto;
 }
 .dgf-tools .left-section .audience-form {
-  font-family: "Montserrat";
   padding: 20px;
 }
 .dgf-tools .left-section .audience-form .form-component {
@@ -387,10 +386,10 @@ template {
   justify-content: space-between;
   font-size: 1rem;
   border-bottom: 1px solid #707070;
-  font-weight: bold;
+  font-weight: normal;
   padding: 8px 0;
   cursor: pointer;
-  color: #00ACC8;
+  color: #074F58;
 }
 .dgf-tools .left-section .audience-form .form-component h3 {
   font-size: 1rem;
@@ -582,164 +581,6 @@ template {
   100% {
     transform: rotate(-360deg);
   }
-}
-
-.input-box {
-  display: flex;
-  align-items: center;
-  max-width: 300px;
-  background: #fff;
-  border: 1px solid #95A1BA;
-  border-radius: 4px;
-  padding-left: 0.5rem;
-  font-family: sans-serif;
-  margin: 0 10px 0 0;
-}
-.input-box .Dropdown-control {
-  overflow: auto !important;
-  border: none;
-}
-.input-box .Dropdown-root {
-  width: 100%;
-}
-
-.input-box .prefix {
-  font-weight: 300;
-  font-size: 16px;
-  color: #074f58;
-  font-weight: bold;
-}
-
-.input-box input {
-  flex-grow: 1;
-  font-size: 16px;
-  background: #fff;
-  border: none;
-  outline: none;
-  padding: 0.5rem;
-  color: #074F58;
-  border-radius: 15px;
-  width: 100px;
-}
-
-.input-box:focus-within {
-  border-color: #95A1BA;
-}
-
-.horizontal-slider {
-  margin-bottom: 20px;
-  margin-top: 20px;
-  display: flex;
-}
-
-.example-mark {
-  margin-top: -7px;
-  background-color: #ffffff;
-  border: 3px #00ACC8 solid;
-  border-radius: 50%;
-  min-height: 20px;
-  min-width: 20px;
-}
-
-.example-track {
-  top: 5px;
-  bottom: 0;
-  height: 5px;
-}
-
-.example-track-1 {
-  background-color: #00ACC8;
-}
-
-.example-track-0, .example-track-2 {
-  background-color: #F3F3F3;
-}
-
-.example-thumb {
-  margin-top: -7px;
-  background-color: #00ACC8;
-  border: 3px #ffffff solid;
-  border-radius: 50%;
-  min-height: 20px;
-  min-width: 20px;
-}
-
-.form-switch {
-  background-color: #00ACC8;
-}
-.form-switch .react-switch-handle {
-  background-color: #00ACC8;
-  height: 20px !important;
-  width: 20px !important;
-  top: 4px !important;
-}
-
-.ownership {
-  list-style-type: none;
-  padding: 0;
-  font-size: 1rem;
-  font-color: #074F58;
-  font-size: 16px;
-}
-.ownership li {
-  margin-bottom: 20px;
-}
-.ownership .form-switch {
-  float: right;
-}
-
-.filter-container {
-  display: flex;
-  gap: 10px;
-}
-.filter-container div:first-child .form-btn {
-  margin-left: 0;
-}
-
-.form-btn {
-  background-color: #ffffff;
-  color: #00ACC8;
-  border: 1px solid #00ACC8;
-  padding: 10px;
-  border-radius: 10px;
-  font-size: 16px;
-  width: 100%;
-  margin: 10px 0 10px 10px;
-}
-.form-btn.active {
-  background-color: #00ACC8;
-  color: #ffffff;
-  border: 1px solid #ffffff;
-}
-
-.footer {
-  display: flex;
-  width: 100%;
-  text-align: right;
-  justify-content: flex-end;
-  padding: 20px;
-}
-
-.flex-content {
-  display: flex;
-  align-items: center;
-}
-
-.dropdown {
-  width: 50%;
-  margin-left: 10px;
-  border-color: #95A1BA;
-  border-radius: 10px;
-  font-size: 0.875rem;
-  color: #074F58;
-  height: 34px;
-}
-.dropdown div:first-child {
-  margin-left: 0;
-}
-
-.last-sold input, .property-built input {
-  width: 50%;
 }
 
 /*# sourceMappingURL=index.css.map */
